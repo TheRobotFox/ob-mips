@@ -117,7 +117,7 @@ This function is called by `org-babel-execute-src-block'"
       (with-temp-file in-file
       (insert body))
       (org-babel-eval
-      (concat "mars-mips sm we nc sen "
+      (concat "mars-mips sm we nc "
               (org-babel-process-file-name in-file))
       "")))
 
